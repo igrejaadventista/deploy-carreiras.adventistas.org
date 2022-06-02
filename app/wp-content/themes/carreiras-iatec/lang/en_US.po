@@ -1,0 +1,79 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Portal de Carreiras (IATEC)\n"
+"POT-Creation-Date: 2022-06-01 10:10-0300\n"
+"PO-Revision-Date: 2022-06-01 10:11-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: front-page.php:8
+msgid "Te ajudamos a encontrar a oportunidade perfeita pra você"
+msgstr "We help you find the perfect opportunity for you"
+
+#: front-page.php:10
+msgid ""
+"Em breve você poderá se candidatar a vagas de emprego e participar de "
+"processos seletivos humanizados, sem essa de ficar sem feedback no final ta ?"
+msgstr ""
+"Soon you will be able to apply for job vacancies and participate in "
+"humanized selection processes, without the one to run out of feedback at the "
+"end ok?"
+
+#: front-page.php:14
+msgid "Quer ser o primeiro a ficar sabendo quando o portal estiver no ar ?"
+msgstr "Want to be the first to know when this portal is live?"
+
+#: front-page.php:24
+msgid "E-mail"
+msgstr "Email"
+
+#: front-page.php:27
+msgid "Quero me inscrever"
+msgstr "Sign up"
+
+#: front-page.php:31
+msgid "Ao se inscrever você concorda com os"
+msgstr "By signing up you agree to the"
+
+#: front-page.php:33
+msgid "termos de uso"
+msgstr "terms of use"
+
+#: partials/content-carousel.php:17
+msgid "Grandes empresas confiam em nós"
+msgstr "Big companies trust us"
+
+#: partials/content-modal.php:11
+msgid "Termos de Uso"
+msgstr "Terms of Use"
+
+#. Theme Name of the plugin/theme
+msgid "Portal de Carreiras (IATEC)"
+msgstr "Career Portal (IATEC)"
+
+#. Description of the plugin/theme
+msgid "Tema Wordpress para o Portal de Carreiras do IATEC."
+msgstr "Wordpress theme for IATEC’s Career Portal."
+
+#. Author of the plugin/theme
+msgid "Matias Palheiro"
+msgstr "Matias Palheiro"
+
+#. Author URI of the plugin/theme
+msgid "https://github.com/rodrigopalheiro"
+msgstr "https://github.com/rodrigopalheiro"
