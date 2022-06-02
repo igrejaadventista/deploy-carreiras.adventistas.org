@@ -1,0 +1,44 @@
+#!/bin/bash
+
+echo "Instala integração com o NewRelic"
+apt-get update
+apt-get -y install sudo wget gnupg
+echo 'deb http://apt.newrelic.com/debian/ newrelic non-free' | sudo tee /etc/apt/sources.list.d/newrelic.list
+wget -O- https://download.newrelic.com/548C16BF.gpg | sudo apt-key add -
+sudo apt-get update
+sudo apt-get -y install newrelic-php5
+sudo NR_INSTALL_SILENT=1 newrelic-install install
+sed -i -e "s/REPLACE_WITH_REAL_KEY/$NEWRELIC_KEY/" \
+  -e "s/newrelic.appname[[:space:]]=[[:space:]].*/newrelic.appname=\"$NEWRELIC_APP_NAME\"/" \
+  -e '$anewrelic.distributed_tracing_enabled=true' \
+  -e '$anewrelic.framework.wordpress.hooks=true' \
+  $(php -r "echo(PHP_CONFIG_FILE_SCAN_DIR);")/newrelic.ini
+echo "Fim da instalação da extensão"
+
+echo "Instala dependencias do tema"
+curl -sL https://deb.nodesource.com/setup_16.x | sudo bash -
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+sudo apt update
+sudo apt -y install nodejs yarn
+cd ~
+curl -sS https://getcomposer.org/installer -o /tmp/composer-setup.php
+HASH=`curl -sS https://composer.github.io/installer.sig`
+php -r "if (hash_file('SHA384', '/tmp/composer-setup.php') === '$HASH') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+sudo php /tmp/composer-setup.php --install-dir=/usr/local/bin --filename=composer
+echo "Fim da instalação das dependencias."
+
+echo "Instala e compila dependencias"
+cd /var/www/html/wp-content/themes/gc-theme
+yarn install && yarn build && rm -rf ./node_modules
+composer install 
+echo "Fim da instalação dos componentes"
+
+echo "Ajuste nas permissões da pasta uploads"
+#rm -rf /var/www/html/wp-content
+find /var/www/html -type d -exec chmod 755 {} \;
+find /var/www/html -type f -exec chmod 644 {} \;
+chmod 755 /var/www/html
+
+echo "Fim do script"
+exec "$@"
