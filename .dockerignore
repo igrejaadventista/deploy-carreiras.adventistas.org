@@ -2,3 +2,7 @@
 .github
 task-definition.json
 update.sh
+.env
+.git
+docker-compose.yml
+.dockerignore
