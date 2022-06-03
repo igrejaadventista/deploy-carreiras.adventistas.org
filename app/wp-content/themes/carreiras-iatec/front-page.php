@@ -25,7 +25,7 @@
           <img src="<?php echo get_stylesheet_directory_uri() . '/assets/img/graphic.svg' ?>" class="graphic" alt="Graphic" />
         </aside>
 
-        <?php // get_template_part( 'partials/content-carousel' ); ?>
+        <?php get_template_part( 'partials/content-carousel' ); ?>
 
       </div>
     </main>

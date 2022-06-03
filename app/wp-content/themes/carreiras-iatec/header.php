@@ -9,7 +9,7 @@
           <div class="dropdown">
             <?php
             $languages = pll_the_languages(array('raw' => 1));
-            $current = array_filter($languages, create_function('$v', 'return (bool) $v["current_lang"];'));
+            $current = array_filter($languages, function($v) { return (bool) $v["current_lang"];});
             $current = reset($current);
             ?>
             <button class="btn btn-outline-secondary dropdown-toggle" style="border: none" type="button" id="dropdownSwitcher" data-bs-toggle="dropdown" aria-expanded="false">
