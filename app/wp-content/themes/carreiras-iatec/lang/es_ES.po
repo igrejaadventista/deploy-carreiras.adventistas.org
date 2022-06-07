@@ -1,17 +1,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Portal de Carreiras (IATEC)\n"
-"POT-Creation-Date: 2022-06-01 10:11-0300\n"
-"PO-Revision-Date: 2022-06-01 10:11-0300\n"
+"POT-Creation-Date: 2022-06-07 16:47-0300\n"
+"PO-Revision-Date: 2022-06-07 16:47-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.1\n"
-"X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: style.css\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -37,19 +37,11 @@ msgstr ""
 msgid "Quer ser o primeiro a ficar sabendo quando o portal estiver no ar ?"
 msgstr "¿Quieres ser el primero en saber cuándo el sítio está disponible?"
 
-#: front-page.php:24
-msgid "E-mail"
-msgstr "E-mail"
-
-#: front-page.php:27
-msgid "Quero me inscrever"
-msgstr "Quiero registrarme"
-
-#: front-page.php:31
+#: front-page.php:17
 msgid "Ao se inscrever você concorda com os"
 msgstr "Al registrarte, aceptas el"
 
-#: front-page.php:33
+#: front-page.php:19
 msgid "termos de uso"
 msgstr "términos de uso"
 
@@ -76,3 +68,9 @@ msgstr "Matias Palheiro"
 #. Author URI of the plugin/theme
 msgid "https://github.com/rodrigopalheiro"
 msgstr "https://github.com/rodrigopalheiro"
+
+#~ msgid "E-mail"
+#~ msgstr "E-mail"
+
+#~ msgid "Quero me inscrever"
+#~ msgstr "Quiero registrarme"
