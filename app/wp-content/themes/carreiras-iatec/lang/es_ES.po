@@ -35,7 +35,7 @@ msgstr ""
 
 #: front-page.php:14
 msgid "Quer ser o primeiro a ficar sabendo quando o portal estiver no ar ?"
-msgstr "¿Quieres ser el primero en saber cuándo la puerta está en el aire?"
+msgstr "¿Quieres ser el primero en saber cuándo el sítio está disponible?"
 
 #: front-page.php:24
 msgid "E-mail"
