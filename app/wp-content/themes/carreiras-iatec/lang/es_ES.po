@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Portal de Carreiras (IATEC)\n"
 "POT-Creation-Date: 2022-07-01 13:14-0300\n"
-"PO-Revision-Date: 2022-08-30 19:37-0300\n"
+"PO-Revision-Date: 2022-08-30 20:02-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -31,7 +31,7 @@ msgid ""
 "processos seletivos humanizados, sem essa de ficar sem feedback no final ta ?"
 msgstr ""
 "Pronto podrás postular a vacantes de empleo, participar de procesos "
-"selectivos personalizados, y recibir feedbacks al final del proceso"
+"selectivos personalizados, y recibir feedbacks al final del proceso "
 
 #: front-page.php:14
 msgid "Quer ser o primeiro a ficar sabendo quando o portal estiver no ar ?"
@@ -39,11 +39,11 @@ msgstr "¿Quieres ser el primero en saber cuándo la página estará disponible?
 
 #: front-page.php:17
 msgid "Ao se inscrever você concorda com os"
-msgstr "Al registrarte, aceptas los "
+msgstr "Al registrarte, aceptas los"
 
 #: front-page.php:19
 msgid "termos de uso"
-msgstr "términos de uso."
+msgstr "términos de uso"
 
 #: partials/content-carousel.php:17
 msgid "Grandes empresas confiam em nós"
