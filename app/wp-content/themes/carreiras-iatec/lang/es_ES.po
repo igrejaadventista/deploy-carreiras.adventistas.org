@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Portal de Carreiras (IATEC)\n"
 "POT-Creation-Date: 2022-07-01 13:14-0300\n"
-"PO-Revision-Date: 2022-07-01 13:14-0300\n"
+"PO-Revision-Date: 2022-08-30 19:37-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.1\n"
+"X-Generator: Poedit 3.1.1\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: style.css\n"
@@ -30,24 +30,24 @@ msgid ""
 "Em breve você poderá se candidatar a vagas de emprego e participar de "
 "processos seletivos humanizados, sem essa de ficar sem feedback no final ta ?"
 msgstr ""
-"Pronto podrás optar a vacantes de empleo y participar en procesos de "
-"selección personalizados, recibiendo un feedback al final del mismo."
+"Pronto podrás postular a vacantes de empleo, participar de procesos "
+"selectivos personalizados, y recibir feedbacks al final del proceso"
 
 #: front-page.php:14
 msgid "Quer ser o primeiro a ficar sabendo quando o portal estiver no ar ?"
-msgstr "¿Quieres ser el primero en saber cuándo el sítio está disponible?"
+msgstr "¿Quieres ser el primero en saber cuándo la página estará disponible?"
 
 #: front-page.php:17
 msgid "Ao se inscrever você concorda com os"
-msgstr "Al registrarte, aceptas el"
+msgstr "Al registrarte, aceptas los "
 
 #: front-page.php:19
 msgid "termos de uso"
-msgstr "términos de uso"
+msgstr "términos de uso."
 
 #: partials/content-carousel.php:17
 msgid "Grandes empresas confiam em nós"
-msgstr "Las grandes empresas confían en nosotros"
+msgstr "Estas grandes empresas confían en nosotros"
 
 #: partials/content-modal.php:11
 msgid "Termos de Uso"
